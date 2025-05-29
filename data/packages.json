@@ -1,0 +1,8 @@
+
+{
+  "packages": [
+    {"size": "Small", "price": "150", "description": "Small porch staging for 2 weeks"},
+    {"size": "Medium", "price": "250", "description": "Medium porch staging for 2 weeks"},
+    {"size": "Large", "price": "350", "description": "Large porch staging for 2 weeks"}
+  ]
+}
