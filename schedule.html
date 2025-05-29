@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Your Porch Staging</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/schedule.js" defer></script>
+</head>
+<body>
+    <h2>Select Your Weekend and Package</h2>
+    <form onsubmit="submitBooking(); return false;">
+        <label for="name">Name:</label><input type="text" id="name" required><br>
+        <label for="email">Email:</label><input type="email" id="email" required><br>
+        <label for="weekend-select">Select Weekend:</label>
+        <select id="weekend-select" required></select><br>
+        <label for="package-select">Select Package:</label>
+        <select id="package-select" required>
+            <option value="Small">Small ($150)</option>
+            <option value="Medium">Medium ($250)</option>
+            <option value="Large">Large ($350)</option>
+        </select><br>
+        <button type="submit">Proceed to Payment</button>
+    </form>
+</body>
+</html>
