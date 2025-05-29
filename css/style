@@ -1,0 +1,15 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+header, footer {
+    background-color: #79ceec;
+    color: white;
+}
+a {
+    color: #79ceec;
+}
+.accent {
+    color: #d2b48c; /* light brown accent */
+}
